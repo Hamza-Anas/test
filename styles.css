@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+p {
+  color: #c70039;
+  font-family: "Montserrat";
+ font-weight: bolder;
+}
+h1 {
+  font-size: 5.62rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  color: #c70039;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  color: #c70039;
+}
+
+h3 {
+  font-family: "Montserrat";
+  color: #111d5e;
+  font-size: 20px;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+a {
+  color: #111d5e;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.Pong {
+  float: left;
+  margin-right: 30px;
+}
+.Rubix {
+  float:right;
+  margin-left: 30px;
+}
+.BUTTON_QTA {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: monospace;
+   width: 180px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   text-shadow: 0 1px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 30px;
+   margin-top: 10px;
+}
+.profile-pic {
+  margin-top: 50px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(17 153 158);
+  border-width: 5px;
+  width: 4%;
+}
+.top-container {
+  background-color: #111d5e;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain {
+  bottom: 0;
+  position: relative;
+  top: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  [class="middle-container"] {
+    font-size: 40px;
+  }
+}
+.middle-container {
+
+  margin-bottom: 0px;
+}
+.bottom-container {
+  margin: 0px auto 0 auto;
+  background-color: #111d5e;
+  padding: 30px;
+
+}
+.footer-link {
+  padding: 20px;
+  font-size: 20px;
+  color: #c70039;
+}
+.copyright {
+  margin: 0;
+  color: #EAF6F6;
+  padding-top: 25px;
+  font-size: 10px;
+}
